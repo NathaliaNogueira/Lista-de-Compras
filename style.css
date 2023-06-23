@@ -1,0 +1,62 @@
+html {
+    background: linear-gradient(177.52deg, #f37c45 2.11%, #f14211 81.34%);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+header{
+    color: rgb(247, 245, 245);
+    text-align: center;
+    text-shadow: rgba(85, 86, 84, 0.701) 2px 2px;
+    font: normal 25pt verdana;
+    padding: 50px 0px 10px;
+
+}
+h1::after {
+    content: '|';
+    opacity: 1;
+    margin-left: 5px;
+    display: inline-block;
+    animation: blink .7s infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+
+body {
+    font-family: 'Montserrat', 'sans-serif', 'Mansalva', cursive;
+}
+
+h2, footer {
+    font-family: 'calibri';
+}
+
+button {
+    border: none;
+}
+
+.itens-comprados {
+    text-decoration: line-through;
+}
+
+.borda-lista {
+    border-bottom: dotted 3px blue;
+}
+
+input:disabled {
+    border: none;
+    background: none;
+    color: black;
+}
+
+input {
+    border: none;
+    background: none;
+    color: black;
+}
